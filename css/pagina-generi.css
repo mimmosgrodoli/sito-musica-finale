@@ -1,0 +1,397 @@
+body {
+    margin: 0 auto;
+    background-color: #1E1E1E;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+    max-width: 1100px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 16px;
+    align-items: center;
+}
+
+header p {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 200px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #111;
+}
+
+header nav a {
+    color: #ffffff;
+}
+
+header nav a:hover {
+    color: #FFDF10;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.testo-promeria {
+  display: flex;
+  max-width: 100%;
+
+}
+
+.testo-promeria h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.testo-promeria :hover{
+  color: #FFDF10;
+}
+
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 610px;
+    
+  }
+
+.image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+  }
+
+.info {
+    position: relative;
+  }
+
+.testo {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #FFDD00;
+  color: black;
+  font-size: 32px;
+  padding: 0px 70px;
+  text-align: center;
+  }
+  
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+  }
+
+
+.intro {
+    padding: 32px 16px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .intro p{
+    font-size: 20px;
+  }
+
+.prg {
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    text-align: left;
+    display: flex;
+    color: #ffffff;
+  }
+
+.rap-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 16px;
+  color: white;
+  flex-direction: row;
+}
+
+.blocco-rap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 200px;
+}
+
+.blocco-rap reverse {
+  flex-direction: row-reverse;
+}
+
+.testo-rap, .rap-image {
+  flex: 1;
+  min-height: 260px;
+}
+
+.testo-rap {
+    margin-top: 200px;
+}
+
+.testo-rap h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.testo-rap p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #ffffff; 
+}
+
+.rap-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.rap-image img {
+  width: 100%;
+  max-width: 420px;
+  height: 400px; 
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.caption {
+  font-size: 14px;
+  color: #FFDF10;
+  font-weight: 500;
+  padding-left: 4px;
+}
+
+.artisti-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.artisti-title {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.artisti-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.artista-card {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.artista-card img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.etichetta {
+  background-color: #FFD900;
+  color: black;
+  font-weight: bold;
+  padding: 8px 0;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  object-fit: cover;
+}
+
+.artista-card a{
+  text-decoration: none;
+  color: black;
+}
+
+.artista-card :hover{
+  color: red;
+}
+
+.footer {
+  background: black;
+  width: 100%; 
+  padding: 40px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footerinfo {
+  display: flex;
+  justify-content: center;
+  gap: 120px; 
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.footerinfo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footerinfo a:hover {
+  color: #FFDD00;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 14px;
+  color: #c9c9c9;
+  gap: 24px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  header {
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+  }
+
+  header p {
+    font-size: 36px;
+  }
+
+  .hero {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+
+  .image img {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .testo {
+    font-size: 20px;
+    padding: 0px 16px;
+  }
+
+  .testo h1{
+    font-size: 20px;
+  }
+
+  .blocco-rap {
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+  }
+
+  .testo-rap {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .testo-rap h2 {
+    font-size: 22px;
+  }
+
+  .testo-rap p {
+    font-size: 16px;
+  }
+
+  .rap-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .caption {
+    text-align: left;
+  }
+
+  .artista-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .etichetta {
+    font-size: 16px;
+  }
+
+  .artisti-title {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .footerinfo {
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .intro {
+    padding: 24px 16px;
+    text-align: left;
+  }
+
+  .intro p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .prg {
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .artisti-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .artista-card {
+    max-width: 100%;
+  }
+}

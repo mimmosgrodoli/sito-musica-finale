@@ -1,0 +1,392 @@
+body {
+    margin: 0 ;
+    background-color: #1E1E1E;
+    font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+    max-width: 1100px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 16px;
+    align-items: center;
+}
+
+header p {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 200px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #111;
+}
+
+header nav a {
+    color: #ffffff;
+}
+
+header nav a:hover {
+    color: #FFDF10;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.testo-promeria {
+  display: flex;
+  max-width: 100%;
+
+}
+
+.testo-promeria h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.testo-promeria a{
+  text-decoration: none;
+}
+
+.testo-promeria :hover{
+  color: #FFDF10;
+}
+
+
+
+.hero {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+     aspect-ratio: 16 / 9;
+     overflow: hidden;
+  }
+
+.image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+  }
+
+.info {
+    position: relative;
+  }
+
+.testo {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #E60000;
+  color: black;
+  font-size: 32px;
+  padding: 0px 70px;
+  text-align: center;
+  width: fit-content;
+  box-sizing: border-box;
+  white-space: nowrap;
+
+  }
+  
+h1 {
+    color: white;
+    font-size: 32px;
+  }
+
+
+.intro {
+    padding: 32px 16px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .intro p{
+    font-size: 20px;
+  }
+
+.prg {
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    text-align: left;
+    display: flex;
+    color: #ffffff;
+  }
+
+  .rapper-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 16px;
+  color: white;
+  flex-direction: row;
+}
+
+.blocco-rapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 200px;
+}
+
+.blocco-rapper reverse {
+  flex-direction: row-reverse;
+}
+
+.testo-rapper, .rapper-image {
+  flex: 1;
+  min-height: 260px;
+}
+
+.testo-rapper {
+    margin-top: 200px;
+}
+
+.testo-rapper h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.testo-rapper p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #ffffff; 
+}
+
+.rapper-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.rapper-image img {
+  width: 100%;
+  max-width: 420px;
+  height: 400px; 
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.discografia {
+  background-color: #1E1E1E;
+  padding: 40px 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.discografia h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.album img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.album-label {
+  background-color: #ff000025;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.intro h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.intro p{
+    color: white;
+    font-size: 20px;
+}
+
+.playlist-section h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.playlist-image {
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+
+
+.footer {
+  background: black;
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footerinfo {
+  display: flex;
+  justify-content: center;
+  gap: 120px; 
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.footerinfo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footerinfo a:hover {
+  color: #FFDD00;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 14px;
+  color: #c9c9c9;
+  gap: 24px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  header {
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+
+  header p {
+    font-size: 24px;
+  }
+
+  .testo-promeria h1 {
+  font-size: 14px;
+
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .testo {
+    padding: 0px 16px;
+  }
+
+  .testo h1{
+    font-size: 20px;
+  }
+
+  .blocco-rapper {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .testo-rapper {
+    margin-top: 0;
+    text-align: left;
+  } 
+
+  .testo-rapper h2 {
+    font-size: 24px;
+  }
+
+  .testo-rapper p {
+    font-size: 16px;
+  }
+
+  .rapper-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .album-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+   .album img {
+  width: 100%;
+  height: auto;
+
+   }
+
+  .album-label {
+  font-size: 14px;
+   }
+  
+ .playlist-image {
+    height: auto;
+    max-height: 400px;
+    margin-bottom: 50px;
+  }
+
+  .playlist-section h2{
+    font-size: 24px;
+}
+
+  .footerinfo {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
